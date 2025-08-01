@@ -25,8 +25,9 @@ export const Card = ({ title, description, image, price, onClick }: CardProps) =
                     <p className="text-gray-600 line-clamp-2">{description}</p>
                     <p className="font-semibold">₹{price}</p>
                 </div>
+ 
                 <div className="mt-auto">
-                    <Button label="Add to Cart" onClick={onClick} size="md" variant="secondary"/>
+                    <Button label="View" onClick={onClick} size="md" variant="secondary"/>
                 </div>
             </div>
         </div>

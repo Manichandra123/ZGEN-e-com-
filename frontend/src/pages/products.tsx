@@ -1,9 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { useProducts } from "../hooks/productshook";
 import { Card } from "../ui/components/card";
 import { Navbar } from "../ui/components/navbar";
 
 export function Products() {
   const { products, loading } = useProducts();
+  const navigate = useNavigate();
   return (
     <> 
     <Navbar/>
@@ -38,7 +40,7 @@ export function Products() {
                   description={description}
                   image={imageUrl}
                   price={price}
-                  onClick={() => {}}
+                  onClick={() => {navigate("/product")}}
                 />
               );
             })}

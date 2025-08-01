@@ -56,7 +56,7 @@ export const Main = () => {
                 description={description}
                 image={imageUrl}
                 price={price}
-                onClick={() => {}}
+                onClick={() => { navigate("/product") }}
               />
             );
           })}

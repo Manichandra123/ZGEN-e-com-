@@ -7,6 +7,7 @@ import { Admin } from './pages/admin'
 import { AdminProducts } from './pages/adminProducts'
 import { AddProduct } from './pages/addproduct'
 import { Products } from './pages/products'
+import Product from './pages/product'
   function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ import { Products } from './pages/products'
         <Route path="/admin" element={<Admin />} />
         <Route path="/admin/products" element={<AdminProducts />} />
         <Route path="/admin/addproduct" element={<AddProduct />} />
+        <Route path='/product' element ={<Product/>} />
        
       </Routes>
     </BrowserRouter>

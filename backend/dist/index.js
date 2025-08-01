@@ -150,6 +150,10 @@ app.post('/api/v1/signin', (req, res) => __awaiter(void 0, void 0, void 0, funct
             return;
         }
         const token = jsonwebtoken_1.default.sign({ userId: user._id }, process.env.JWT_SECRET);
+        if (token) {
+            localStorage.setItem('token', token);
+            localStorage.setItem('user', JSON.stringify(user));
+        }
         res.status(200).json({
             success: true,
             message: "User signed in successfully",
