@@ -35,9 +35,7 @@ A full-stack e-commerce web application built using the MERN stack (MongoDB, Exp
 - 🧹 Clean & Modular Code
 
 ---
-## Clone the repository
-git clone https://github.com/yourusername/ecom-app.git
-cd ecom-app
+ 
 
 
 ## 📦 Installation
