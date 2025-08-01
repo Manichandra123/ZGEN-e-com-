@@ -1,21 +1,26 @@
 
 # 📦 Project Title
 
-> A short one-liner about what this app does or its purpose.
+🛒 MERN E-Commerce Application
+A full-stack e-commerce web application built using the MERN stack (MongoDB, Express, React, Node.js) with modern best practices, responsive UI, and a modular architecture.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, TailwindCSS, Axios, Zod
-- **Backend**: Node.js, Express, MongoDB
-- **Auth**: JWT (JSON Web Token)
-- **Validation**: Zod (client-side)
-- **API**: RESTful API (JSON-based)
+ | Layer            | Technology                         |
+| ---------------- | ---------------------------------- |
+| Frontend         | React, TailwindCSS, Axios, Zod     |
+| Backend          | Node.js, Express.js, MongoDB, JWT  |
+| Input Validation | Zod (on frontend)                  |
+| API              | RESTful (JSON-based)               |
+| Auth             | JWT (Bearer Token)                 |
+| State Mgmt       | Local Component State (or Context) |
 
 ---
 
  
+
 
 ---
 
@@ -30,6 +35,10 @@
 - 🧹 Clean & Modular Code
 
 ---
+## Clone the repository
+git clone https://github.com/yourusername/ecom-app.git
+cd ecom-app
+
 
 ## 📦 Installation
 
